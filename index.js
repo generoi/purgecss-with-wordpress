@@ -18,6 +18,10 @@ module.exports = {
     'wp-caption-text',
     'screen-reader-text',
     'comment-list',
+    'post-page-numbers',
+    'current',
+    'page-nav',
+    'mce-content-body',
   ],
   whitelistPatterns: [
     /^search(-.*)?$/,
@@ -34,5 +38,31 @@ module.exports = {
     /^tax-(.*)?$/,
     /^term-(.*)?$/,
     /^(.*)?-?paged(-.*)?$/,
+    /^wp-core(-.*)?$/,
+    /^edit-widgets(-.*)?$/,
+    /^edit-post(-.*)?$/,
+    /^(widefat|ui-dialog)?$/,
+    /^type-(.*)$/,
+    // gutenberg
+    /^wp-block(-.*)?$/,
+    /^editor-(.*)$/,
+    /^block-library(-.*)?$/,
+    /^block-editor(-.*)?$/,
+    /^has-(.*)$/,
+    /^is-(.*)$/,
+    /^columns-([0-9]+)$/, // gallery block
+    /^size-(.*)$/, // image block
+    // acf
+    /^(remove|order|filters|filter|selection|choices|list|values|-border)$/, // acf
+    /^acf-(.*)$/,
+    // facetwp
+    /^fwp-(.*)$/,
+    /^facetwp-(.*)$/,
+    // Forms
+    /(select|input|textarea|button)/,
+  ],
+  foundationSitesPatterns: [
+    /^dropdown$/,
+    /^opens-(left|right|up|down)$/,
   ],
 };
