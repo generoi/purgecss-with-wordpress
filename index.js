@@ -65,4 +65,12 @@ module.exports = {
     /^dropdown$/,
     /^opens-(left|right|up|down)$/,
   ],
+  woocommercePatterns: [
+    /^(variations|reset_variations|products)$/,
+    /^(cart|quantity|qty|add_to_cart_button|button|alt)$/,
+    /^woocommerce-/,
+    /^product_type_(variable|single|group)/,
+    /^(single|variable|group)_(add_to_cart_button|variation|variation_wrap)$/,
+    /^(instock|purchasable|taxable)$/,
+  ],
 };
