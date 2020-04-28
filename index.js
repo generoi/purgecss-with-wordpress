@@ -63,6 +63,7 @@ module.exports = {
   ],
   foundationSitesPatterns: [
     /^dropdown$/,
+    /^submenu(-toggle|-toggle-text)?$/,
     /^opens-(left|right|up|down)$/,
   ],
   woocommercePatterns: [
