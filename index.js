@@ -62,6 +62,8 @@ module.exports = {
     /(select|input|textarea|button)/,
   ],
   foundationSitesPatterns: [
+    /^foundation-mq$/,
+    /^js-(.*)$/,
     /^dropdown$/,
     /^submenu(-toggle|-toggle-text)?$/,
     /^opens-(left|right|up|down)$/,
