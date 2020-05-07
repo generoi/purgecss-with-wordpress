@@ -65,6 +65,7 @@ module.exports = {
     /^foundation-mq$/,
     /^js-(.*)$/,
     /^dropdown$/,
+    /^reveal-overlay$/,
     /^submenu(-toggle|-toggle-text)?$/,
     /^opens-(left|right|up|down)$/,
   ],
